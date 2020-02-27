@@ -1,0 +1,34 @@
+{
+    "name": "aiolos/lumen-passport-oauth",
+    "type": "library",
+    "description": "Making Laravel Passport work with Lumen",
+    "keywords": ["php","lumen","laravel passport"],
+    "homepage": "https://github.com/aiolos-solutions/lumen-passport-oauth",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aiolos",
+            "email": "ricky@aiolos.solutions",
+            "homepage": "https://aiolos.solutions"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/database": "~5.3|~5.4|~5.5|~5.6|~6.0",
+        "illuminate/support": "~5.3|~5.4|~5.5|~5.6|~6.0",
+        "laravel/passport": ">=0.2.2"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "phpunit/phpunit": "~5.0",
+        "codeclimate/php-test-reporter": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aiolos\\LumenPassport\\": "src/"
+        },
+         "files": [
+            "src/helpers.php"
+        ]
+    }
+}
